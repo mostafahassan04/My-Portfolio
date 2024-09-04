@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 426px) {
   #desktop-nav {
     display: none;
   }
@@ -90,5 +90,65 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .section-container {
+    display: block;
+  }
+  .about-container,
+  .experience-container,
+  .projects-container {
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+  #contact,
+  #projects,
+  section,
+  .section-container,
+  footer nav {
+    height: fit-content;
+  }
+  #experience,
+  .experience-details-container,
+  .projects-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  article {
+    font-size: 1rem;
+  }
+  #profile {
+    margin-bottom: 150px;
+  }
+  .projects-container .details-container {
+    max-width: 373.6px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .projects-container .details-container {
+    max-width: 6000px;
+    justify-self: center;
+    align-self: center;
   }
 }
