@@ -147,6 +147,11 @@ section {
   width: 400px;
   height: 400px;
   margin: auto 0;
+  justify-content: center;
+}
+
+.section__pic-container img {
+  border-radius: 60px;
 }
 
 .section__text {
@@ -246,6 +251,7 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -262,15 +268,21 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+.p-details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background-color: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
-}
-
-.section__pic-container {
-  width: 400px;
-  height: 400px;
-  margin: auto 0;
 }
 
 #experience {
@@ -357,6 +369,7 @@ article .icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: wrap;
   gap: 0.5rem;
   margin: 1rem;
 }
@@ -381,3 +394,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+
